@@ -4,15 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - MainLight
-  - CinemachineTarget
-  - ScreenCamera
-  - cockpit_capitalLaser
+  - Target
+  - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Temp_Post
+  - Ground
   - Water
   - UI
   - Terminal

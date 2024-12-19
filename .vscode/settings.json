@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "3DShooter.sln"
+    "dotnet.defaultSolution": "3DShooter.sln",
+    "dotnet.preferCSharpExtension": true
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MouseMovement : MonoBehaviour
 {
+
    public float mouseSensitivity = 500f;
 
    float xRotation = 0f;
@@ -15,7 +16,8 @@ public class MouseMovement : MonoBehaviour
     void Start()
     {
         //Locking the cursor to the middle of the screen and making it invisible
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     
