@@ -16,8 +16,12 @@ public class MouseMovement : MonoBehaviour
     void Start()
     {
         //Locking the cursor to the middle of the screen and making it invisible
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        //Cursor.lockState = CursorLockMode.None;
+        //Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+
     }
 
     

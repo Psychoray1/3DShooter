@@ -80,7 +80,8 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-
+        Debug.Log("Player is moving");
 
     }
+    
 }
